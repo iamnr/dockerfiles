@@ -1,0 +1,3 @@
+FROM almalinux
+ENV name=naveen \ 
+    date=10/12/2024
