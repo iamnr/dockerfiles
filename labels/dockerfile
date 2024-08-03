@@ -1,0 +1,3 @@
+FROM almalinux
+LABEL name="naveen" \
+      age=30
