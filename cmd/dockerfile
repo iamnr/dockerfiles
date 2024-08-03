@@ -1,4 +1,4 @@
 FROM almalinux
-RUN yum install nginx -y \
+RUN yum install nginx -y &&
     echo "Hello There" > /usr/share/nginx/html/index.html
 CMD [ "nginx" , "-g" , "daemon off" ]
