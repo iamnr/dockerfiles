@@ -1,0 +1,5 @@
+ARG version
+FROM almalinux:${version:-8}
+ARG course && \
+    trainee
+RUN echo "course is ${course} and trainer is ${trainee}" > /tmp/arg.txt
