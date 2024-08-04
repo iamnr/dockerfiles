@@ -1,3 +1,4 @@
 FROM almalinux:8
 RUN useradd naveen
 USER naveen
+RUN echo "hello there" > /tmp/heelo.txt
