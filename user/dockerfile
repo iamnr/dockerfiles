@@ -1,2 +1,3 @@
 FROM almalinux:8
+RUN useradd naveen
 USER naveen
