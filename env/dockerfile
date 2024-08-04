@@ -1,0 +1,4 @@
+FROM almalinux
+ENV name=naveen \ 
+    age=20 \
+    place=hyd
